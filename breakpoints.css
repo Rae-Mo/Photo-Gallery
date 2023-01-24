@@ -1,0 +1,41 @@
+/* wearables and extra small mobile devices 320px and down */
+@media screen and (max-width: 320px) {}
+/* small mobile devices 600px and down*/
+@media screen and (max-width: 600px) {}
+/* medium and large sized mobile devices 769px and down */
+@media screen and (600px <= width <= 768px) {
+    body{ width: 80%;}
+    .picture-box{ width: 100%}
+}
+/* small and medium sized tablets 1024px and down */
+@media screen and (769px <= width <= 1024px) {
+    body{ width: 80%;}
+    .picture-box{ 
+        width: 100%;
+        display: flex;
+    }
+}
+/* large tablets and laptops 1200px and down */
+@media screen and (1025px <= width <= 1200px) {
+    body{ width: 70%;}
+    .picture-box{ 
+        width: 100%;
+        display: flex;
+    }
+    .txt{
+        width: 90%;
+        height: 100%;
+    }
+}
+/* desktops and large screens 1200px and up */
+@media screen and (min-width: 1200px) {
+    body{ width: 65%;}
+    .picture-box{ 
+        width: 100%;
+        display: flex;
+    }
+    .txt{
+        width: 90%;
+        height: 100%;
+    }
+}
